@@ -3,7 +3,10 @@ import Image from 'next/image'
 import styles from '../styles/Login.module.css'
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import ReactDOM, { render } from 'react-dom';
+import { Button } from 'antd';
+import 'antd/dist/antd.css';
+
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -38,7 +41,6 @@ export default function Login() {
     })
   }
 
-
   return (
     <div className="Login">
       <Form onSubmit={handleSubmit}>
@@ -59,11 +61,10 @@ export default function Login() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </Form.Group>
-        <Button block size="lg" type="submit" disabled={!validateForm()}>
-          Login
-        </Button>
-        
+
+        <Button type="primary">Primary Button</Button>
+
       </Form>
-    </div>
-  );
+    </div>  
+  ); 
 }
