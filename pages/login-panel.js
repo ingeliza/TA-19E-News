@@ -62,7 +62,7 @@ export default function Login() {
           />
         </Form.Group>
 
-        <Button type="primary">Primary Button</Button>
+        <Button type="primary">Login</Button>
 
       </Form>
     </div>  
