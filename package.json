@@ -7,11 +7,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< Updated upstream
-=======
+
     "@auth0/nextjs-auth0": "^1.7.0",
     "@prisma/client": "^3.10.0",
->>>>>>> Stashed changes
+
     "antd": "^4.18.8",
     "axios": "^0.26.0",
     "mysql": "^2.18.1",

@@ -13,23 +13,13 @@ import { useUser } from '@auth0/nextjs-auth0'
 
 
 export default function Home() {
-<<<<<<< Updated upstream
-  //const [content, setContent] = useState([]);
-  const content = [{title: "Cat1", src:"pages/placeholder.jpeg"},{title: "Cat2", src:"placeholder.jpg"},{title: "Cat3", src:"placeholder.jpg"}]
-
-  /*useEffect(function() {
-    fetch("").then(res => res.json()).then(data => setContent(data))
-  }, []) */
-=======
   const{user}=useUser();
   console.log(user);
->>>>>>> Stashed changes
 
   return (
     
     <div className={styles.container}>
-<<<<<<< Updated upstream
-=======
+
       <nav>
       {!user && (
         <Link href="/api/auth/login">
@@ -47,7 +37,6 @@ export default function Home() {
         )}
       </nav>
 
->>>>>>> Stashed changes
         <MainLayout/>
     </div>
     
