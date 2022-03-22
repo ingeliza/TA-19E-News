@@ -15,7 +15,10 @@ export default function DetailLayout(){
                     <Content className={styles.container}>
                         <div className="site-layout-content">
                             <div>
-                                <h1>Auctor urna nunc id cursus</h1>
+                                <div style={{width: '100%'}}>
+                                    <h1>Auctor urna nunc id cursus</h1>
+                                    <p style={{textAlign: 'left'}}>Autor</p>
+                                </div>
                                 <Image
                                     alt='placeholder'
                                     src={"/../public/placeholder.jpg"}

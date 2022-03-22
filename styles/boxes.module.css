@@ -21,6 +21,7 @@
     grid-row: 1 / span 5;
     border: 2px solid black;
     border-radius: 5px;
+    position: relative;
 }
 
 .news {
@@ -31,6 +32,7 @@
     grid-row: 1 / span 1;
     border: 2px solid black;
     border-radius: 5px;
+    position: relative;
 }
 
 .news1 {
@@ -42,6 +44,7 @@
     grid-row: 4 / span 2;
     border: 2px solid black;
     border-radius: 5px;
+    position: relative;
 }
 
 .news2 {
@@ -52,6 +55,7 @@
     grid-column: 2 / span 1;
     border: 2px solid black;
     border-radius: 5px;
+    position: relative;
 }
 
 .news3 {
@@ -62,4 +66,5 @@
     grid-column: 4;
     border: 2px solid black;
     border-radius: 5px;
+    position: relative;
 }
