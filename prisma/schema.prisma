@@ -29,11 +29,10 @@ model news {
   news_content String
   news_images  String
   release_date DateTime
-  // comment_id Int
   comment      comment[]
 
-  @@index([school_id])
   @@index([class_id])
+  @@index([school_id])
 }
 
 model comment {
