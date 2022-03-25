@@ -21,8 +21,8 @@ CREATE TABLE `news` (
     `news_images` VARCHAR(191) NOT NULL,
     `release_date` DATETIME(3) NOT NULL,
 
-    INDEX `news_school_id_idx`(`school_id`),
     INDEX `news_class_id_idx`(`class_id`),
+    INDEX `news_school_id_idx`(`school_id`),
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
